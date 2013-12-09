@@ -1,18 +1,18 @@
 <?php
 /**
  * @file
- * dss_data_source_export.features.taxonomy.inc
+ * data_snapshots_data_source.features.taxonomy.inc
  */
 
 /**
  * Implements hook_taxonomy_default_vocabularies().
  */
-function dss_data_source_export_taxonomy_default_vocabularies() {
+function data_snapshots_data_source_taxonomy_default_vocabularies() {
   return array(
-    'data_snapshot_data_set_frequency' => array(
-      'name' => 'Data Snapshot Data Set Frequency',
-      'machine_name' => 'data_snapshot_data_set_frequency',
-      'description' => 'Image frequency for a Data Snapshot Data set.',
+    'data_snapshot_data_source_frequency' => array(
+      'name' => 'Data Snapshot Data Source Frequency',
+      'machine_name' => 'data_snapshot_data_source_frequency',
+      'description' => 'Image frequency for a Data Snapshot Data source.',
       'hierarchy' => '0',
       'module' => 'taxonomy',
       'weight' => '0',
