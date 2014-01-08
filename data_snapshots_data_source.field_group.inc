@@ -24,10 +24,11 @@ function data_snapshots_data_source_field_group_info() {
     'weight' => '1',
     'children' => array(
       0 => 'field_dssds_official_name',
-      1 => 'field_dssds_themes',
-      2 => 'field_dssds_catalog_url',
-      3 => 'field_dssds_image_frequency',
-      4 => 'title',
+      1 => 'field_dssds_machine_name',
+      2 => 'field_dssds_themes',
+      3 => 'field_dssds_catalog_url',
+      4 => 'field_dssds_image_frequency',
+      5 => 'title',
     ),
     'format_type' => 'htab',
     'format_settings' => array(
